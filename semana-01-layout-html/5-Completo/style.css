@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("/fonts/Caveat-VariableFont_wght.ttf") format("ttf");
+  /* url("/fonts/Caveat-VariableFont_wght.ttf") format('ttf');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  background: rgb(238, 146, 247);
+  color: rgb(248, 243, 237);
+}
+
+h1 {
+  text-shadow: 0px, -2px, 3px, rgb(119, 114, 119);
+  text-align: center;
+  padding-top: 1rem;
+  font-family: Caveat;
+  font-weight: 700;
+  line-height: 5rem;
+  font-size: 4rem;
+}
+
+nav {
+  text-align: center;
+  font-weight: 700;
+  padding: 5px;
+  border: 1px solid rgb(195, 25, 218);
+  background: linear-gradient(0deg, rgb(195, 25, 218), rgb(247, 211, 245));
+}
+
+nav li {
+  display: inline;
+  padding: 5px;
+  border: 1px solid rgb(195, 25, 218);
+  border-radius: 2px;
+  background: linear-gradient(180deg, rgb(195, 25, 218), rgb(247, 220, 244));
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
