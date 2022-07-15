@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    
+    background-image: url(/3-Flex/img/hamburguesa.png);
+    background-size:cover;
+    background-position: 50%;
+    background-color: rgb(212, 155, 79);
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    
+}
+
+
+fieldset{
+    margin-top: 3rem;  
+    border: 0;
+}
+
+
+legend{
+    font-weight:bolder;
+    font-size: x-large;
+    text-align: center;
+}
+
+header li{
+    text-align: center;
+    margin-top: 3rem;
+    list-style-type: none;
+    font-style: oblique;
+    font-weight: 100;
+    
+}
+
+
+main li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+    font-style: oblique;
+    font-weight: 100;
+}
+main li input{
+    width: 25rem;
+    height: 2.6rem;
+    margin-left: 10rem;
+    
+}
+
+
+label{
+    margin-bottom: 1rem;
+}
+h4{
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+textarea{
+    width: 60%;
+    margin-left: 9.1rem;
+}
+
+.enviar{
+    background-color: rgb(12, 12, 155);
+    color: aliceblue;
+    border-radius: 8%;
+    width: 5rem;
+    height: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+    box-shadow: 1px 1px rgb(20, 20, 70);
+    
+}
+
+li select{
+    width: 20%;
+    height: 2rem;
+    margin-left: 18rem;
+    
+}
+
+@media (min-width:400px){
+    
+}

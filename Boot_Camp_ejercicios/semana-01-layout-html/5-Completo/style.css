@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("/fonts/Caveat-VariableFont_wght.ttf") format("ttf");
+  /* url("/fonts/Caveat-VariableFont_wght.ttf") format('ttf');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  background: rgb(238, 146, 247);
+  color: rgb(248, 243, 237);
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 8px, -2px, 3px, rgb(119, 114, 119);
+  text-align: center;
+  padding-top: 1rem;
+  font-family: Caveat;
+  font-weight: 700;
+  line-height: 5rem;
+  font-size: 4rem;
+}
+
+nav {
+  background: rgb(237, 122, 245);
+  background: linear-gradient(to top, rgb(235, 98, 240), rgb(243, 215, 241));
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline;
+  background: linear-gradient(to top, rgb(235, 98, 240), rgb(243, 215, 241));
+  border: 1px solid rgb(241, 144, 245);
+  background-size: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(247, 243, 238);
+  font-weight: 700;
+}
+
+a:hover {
+  background: linear-gradient(to top, rgb(240, 202, 241), rgb(240, 116, 231));
+}
+
+h2 {
+  font-family: Caveat;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  justify-content: space-around;
+  height: 16rem;
+}
+
+
+.caja {
+  
+  background: whitesmoke;
+  color:  black;
+  width: 10rem;
+  height: 25px;
+  text-align: center;
+  margin-top: 2px;
+  
+}
+
