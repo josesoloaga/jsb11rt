@@ -1,13 +1,15 @@
+@import url("contacto.css");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html {
+html { 
+  
   font-family: sans-serif;
-  background-color: rgb(203, 241, 229);
-  --morado_texto: rgb(171, 48, 219);
+  background-color: var(--color_fondo);
 }
 
 body {
@@ -34,6 +36,7 @@ nav menu li a {
   color: var(--morado_texto);
   text-shadow: 0.5px 0.5px rgb(51, 18, 82);
   font-family: Lobster, sans-serif;
+  font-size: 1.5rem;
 }
 
 article {
@@ -46,7 +49,7 @@ article {
 img {
   border-radius: 50%;
   width: 16rem;
-  box-shadow: 1px 0px 0px 0.5px rgb(160, 224, 240);
+  box-shadow: 1px 0px 0px 0.5px rgb(174, 185, 189);
   margin-top: 1rem;
 }
 
@@ -54,6 +57,7 @@ article h1 {
   font-size: 3rem;
   font-family: Lobster, sans-serif;
   margin-bottom: 0.5rem;
+  text-shadow: 0px 0px 1px 1px rgb(114, 122, 124);
 }
 
 article h4 {
@@ -66,7 +70,7 @@ p {
   margin: 0.6rem;
   font-size: 0.9rem;
   font-weight: 500;
-  text-shadow: 0px 2px;
+  text-shadow: 0px 0.5px gray;
 }
 .curriculum {
   color: var(--morado_texto);
@@ -75,4 +79,5 @@ p {
 
 footer {
   text-align: left;
+  font-size: xx-small;
 }
