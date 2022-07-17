@@ -13,6 +13,8 @@ html {
 
 body {
   min-height: 100vh;
+  position: relative;
+  padding-bottom: 36px;
 }
 
 nav menu {
@@ -70,11 +72,11 @@ header menu a[href*="profile"] {
 
 /* NAV*/
 
-body > nav menu li {
+body > div nav menu li {
   width: 100%;
 }
 
-body > nav menu a {
+body > div nav menu a {
   text-align: center;
   color: var(--primary);
   text-decoration: none;
@@ -84,7 +86,7 @@ body > nav menu a {
   padding: 0.5rem 0;
 }
 
-body > nav menu a:hover {
+body > div nav menu a:hover {
   background: var(--background);
 }
 
@@ -120,28 +122,145 @@ article p.price {
 
 /* FOOTER */
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 footer a {
   color: var(--primary);
   width: max-content;
 }
 
 /* MEDIA QUERY */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   /* HEADER */
 
+  body {
+    position: relative;
+    padding-bottom: 37px;
+    min-height: 100vh;
+  }
+
   header {
-    z-index: 1;
-    padding: 0 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex-cont {
+    display: flex;
+  }
+  .flex-cont nav li {
+    display: flex;
+  }
+
+  .flex-cont main article {
+    flex-direction: column;
   }
 
   /* NAV */
 
-  body > nav {
-    padding-top: 1rem;
+  body header nav menu li {
+    display: inline;
+    width: 20%;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 375px) {
+  /* HEADER */
+
+  body {
+    position: relative;
+    padding-bottom: 37px;
+    min-height: 100vh;
   }
 
-  body > nav menu a {
-    text-align: left;
-    padding-left: 0.5rem;
+  /* NAV */
+
+  body header nav menu li {
+    display: inline;
+  }
+
+  .menu-categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+  }
+
+  article {
+    background: white;
+    box-shadow: var(--shadow);
+    width: 10rem;
+    height: 20rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  nav menu {
+    list-style: none;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) {
+  /* HEADER */
+
+  body {
+    position: relative;
+    padding-bottom: 37px;
+    min-height: 100vh;
+  }
+
+  /* NAV */
+
+  body header nav menu li {
+    display: inline;
+  }
+
+  .menu-categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
+  }
+
+  article {
+    background: white;
+    box-shadow: var(--shadow);
+    width: 10rem;
+    height: 20rem;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+  }
+  nav menu {
+    list-style: none;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }

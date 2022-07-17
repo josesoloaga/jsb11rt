@@ -9,6 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  
 }
 
 button {
@@ -17,6 +18,9 @@ button {
   background: transparent;
   border: none;
   cursor: pointer;
+  animation-name: corazon;
+  animation-duration: 0.8s;
+  
 }
 
 svg {
@@ -24,3 +28,22 @@ svg {
 }
 
 
+@keyframes corazon{
+  0%{
+    transform: scale(1.2);
+    ;
+    
+    }
+  20%{
+      transform: scale(1);
+    }
+  30%{
+    transform: scale(1.2);
+  }
+  40%{
+    transform: scale(1);
+  }
+  }
+
+
+}
