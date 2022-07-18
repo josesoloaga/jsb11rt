@@ -15,7 +15,7 @@ if(condicion){
 let num = 8;
 
 if (num > 5) {
-  console.log("es mayor que 5");
+    console.log("es mayor que 5");
 }
 
 //IF....ELSE...
