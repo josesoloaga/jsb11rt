@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+li,
+li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+li a {
+  background-image: url(/img/linkedin-logo.png);
+  background-size: cover;
+  font-size: 0;
+  padding: 3rem;
+  margin-top: 5rem;
+}
+
+main {
+  min-width: 100%;
+}
+
+footer {
+}
