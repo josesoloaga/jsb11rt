@@ -78,6 +78,22 @@ p {
 }
 
 footer {
-  text-align: left;
+  text-align: lef
   font-size: xx-small;
 }
+
+
+main ul article{
+  display: flex;
+  flex-direction:column; 
+  align-items: center;
+  background-color: aliceblue;
+
+}
+
+article div{
+  display: flex;
+
+
+}
+article div a

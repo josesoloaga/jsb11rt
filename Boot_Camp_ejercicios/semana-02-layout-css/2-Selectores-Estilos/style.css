@@ -3,7 +3,7 @@
 }
 
 .lista li:nth-child(odd) {
-  text-decoration: underline;
+  text-decoration: underline green;
 }
 
 .lista li {
@@ -23,16 +23,19 @@
 .lista li:nth-child(4)::after {
   content: "🥶";
 }
-.lista li:nth-child(2)::after {
+.lista li:nth-child(5)::after {
   content: "🥵";
 }
+.lista li:nth-child(6)::after {
+  content: "🤓";
+}
 li:lang(en) {
-  font-size: 32px;
+  font-size: 200%;
 }
 
 #provincias {
-  list-style-type: upper-roman;
-}
-#provincias li:nth-child(2) {
   list-style-type: none;
+}
+#provincias li:not(:nth-child(2)) {
+  list-style-type: upper-roman;
 }

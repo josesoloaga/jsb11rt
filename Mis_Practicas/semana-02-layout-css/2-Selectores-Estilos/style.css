@@ -1,0 +1,38 @@
+.lista li:last-child {
+  background-color: rgb(59, 136, 207);
+}
+
+.lista li:nth-child(odd) {
+  text-decoration: underline;
+}
+
+.lista li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.lista li::after {
+  content: "😃";
+}
+.lista li:nth-child(2)::after {
+  content: "😁";
+}
+.lista li:nth-child(3)::after {
+  content: "🥱";
+}
+.lista li:nth-child(4)::after {
+  content: "🥶";
+}
+.lista li:nth-child(2)::after {
+  content: "🥵";
+}
+li:lang(en) {
+  font-size: 32px;
+}
+
+#provincias {
+  list-style-type: upper-roman;
+}
+#provincias li:nth-child(2) {
+  list-style-type: none;
+}

@@ -12,7 +12,7 @@
     <form action="#">
       <header>
         <fieldset>
-          <legend>PERSONALIZA TU HAMBURGUESA</legend>
+          <legend>Personaliza tu hamburguesa</legend>
           <h4>Ingredientes</h4>
           <ul>
             <li>
@@ -41,7 +41,7 @@
       </header>
       <main>
         <fieldset>
-          <legend>DATOS DE ENTREGA</legend>
+          <legend>Datos de entrega</legend>
           <ul>
             <li>
               <label for="nombre">Nombre</label>
@@ -68,22 +68,22 @@
           </ul>
         </fieldset>
         <fieldset>
-          <legend>METODO DE PAGO</legend>
+          <legend>Metodos de pago</legend>
           <ul>
             <li>
               <label for="metodo_pago"></label>
-              <select name="metodo_pago" id="metodo_pago">
+              <select name="metodo_pago" id="metodo_pago" required>
+                <option hidden value="">Selecciona...</option>
                 <option value="tarjeta">Tarjeta</option>
                 <option value="metalico">Metalico</option>
                 <option value="bizum">Bizum</option>
                 <option value="no_pago">Hoy no pago</option>
               </select>
             </li>
-            <li>
-              <input class="enviar" type="submit" value="Enviar" />
-            </li>
+            <li></li>
           </ul>
         </fieldset>
+        <input class="enviar" type="submit" value="Enviar" />
       </main>
     </form>
   </body>
