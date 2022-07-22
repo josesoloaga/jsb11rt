@@ -11,3 +11,9 @@ const people = {
   Irene: 23,
   Alex: 10,
 };
+
+
+console.log(Object.keys(people))
+
+let frase = Object.keys(people)
+console.log(frase.length)
