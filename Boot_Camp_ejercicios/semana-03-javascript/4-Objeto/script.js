@@ -24,7 +24,7 @@ for (let clave in people){
 
 
 
-  
+/// CON FOR IN
 
   
 

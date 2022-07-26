@@ -20,13 +20,6 @@ const names = [
 
 /*
 
-const resultado = names.reduce((acc,item)=>{
-  if(!acc.includes(item)){
-    acc.push(item);
-  }
-  return acc;
-},[])
-console.log(resultado);
 
 
 */

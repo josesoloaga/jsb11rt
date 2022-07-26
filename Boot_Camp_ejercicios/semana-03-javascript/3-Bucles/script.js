@@ -12,7 +12,7 @@ Extra: ¡Hagámoslo un poco más difícil! Además de decir la hora con un núme
 */
 
 /*
-
+let counter = 0;
 for (let i = 8; i <= 22; i++) {
   console.log(i);
   let j = 1;
@@ -22,13 +22,13 @@ for (let i = 8; i <= 22; i++) {
       j++;
       console.log("cucu");
     } else {
-      j++;
-      
-      console.log("cucu");
+      counter++;
+      for (let j = 0; j < counter; j++) {
+        console.log("cucu");
+      }
     }
   }
 }
-
 
 CASI CASI
 */
@@ -52,7 +52,7 @@ for (let i = 1; i <= 24; i++) {
 /*
 
 
-Ejer. Nacho
+
 
 let counter = 0;
 for (let i = 1; i <= 24; i++) {
